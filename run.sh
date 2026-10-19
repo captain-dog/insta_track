@@ -1,2 +1,2 @@
 #!/bin/sh
-cd "$(dirname "$0")" && exec uv run track.py
+cd "$(dirname "$0")" && exec uv run python -m insta_track
