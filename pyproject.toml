@@ -3,4 +3,8 @@ name = "insta-track"
 version = "0.1.0"
 description = "Instagram followers/unfollowers tracker with Telegram notifications"
 requires-python = ">=3.11"
-dependencies = ["instaloader>=4.15"]
+dependencies = [
+    "alembic>=1.13",
+    "instaloader>=4.15",
+    "sqlalchemy>=2.0",
+]

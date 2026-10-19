@@ -3,3 +3,4 @@ session-*
 snapshots.db
 __pycache__/
 .venv/
+track.log*
